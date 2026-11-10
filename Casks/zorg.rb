@@ -8,7 +8,7 @@ cask "zorg" do
   homepage "https://github.com/craftsoldier/zorg"
 
   depends_on arch: :arm64
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "zorg.app"
   binary "#{appdir}/zorg.app/Contents/MacOS/zorg"
